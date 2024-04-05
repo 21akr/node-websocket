@@ -1,0 +1,27 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21akr/node-websocket.git"
+  },
+  "keywords": [],
+  "author": "Akramkhujaev Mukhammadrasul <it21akr@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/21akr/node-websocket#readme",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "optionalDependencies": {
+    "utf-8-validate": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "ts-node-dev": "^2.0.0"
+  }
+}
