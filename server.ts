@@ -1,6 +1,5 @@
 import * as WebSocket from 'ws';
 
-// Create a WebSocket server
 const wss = new WebSocket.Server({port: 8080});
 
 let clients: WebSocket[] = [];
